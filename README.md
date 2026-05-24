@@ -7,7 +7,7 @@
 <p><strong>End-to-end Machine Learning system that scrapes Zameen.com, trains 6 regression models, and predicts house prices in Islamabad through a live interactive web dashboard.</strong></p>
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3.10+-green?style=flat-square&logo=python" />
+  <img width="690" height="390" alt="image" src="https://github.com/user-attachments/assets/225f779f-ab56-48a2-94b1-7e2f9a95a0c7" />
   <img src="https://img.shields.io/badge/Flask-3.1-lightgrey?style=flat-square&logo=flask" />
   <img src="https://img.shields.io/badge/CatBoost-R²%200.895-success?style=flat-square" />
   <img src="https://img.shields.io/badge/Dataset-300%20Listings-blue?style=flat-square" />
