@@ -1,8 +1,8 @@
-# PropPredict — Islamabad House Price Prediction System
+# PropPredict: Islamabad House Price Prediction System
 
 An end-to-end machine learning system that scrapes Zameen.com, trains six regression models, and predicts house prices in Islamabad through a live interactive web dashboard.
 
-![Project Pipeline](workflow_poster.png)
+<img width="2752" height="1536" alt="Islamabad_Property_Intelligence_System" src="https://github.com/user-attachments/assets/fca008a6-0288-44ec-99f8-811424156f16" />
 
 ---
 
@@ -24,7 +24,7 @@ An end-to-end machine learning system that scrapes Zameen.com, trains six regres
 
 ## Project Overview
 
-PropPredict is a complete house price prediction system built for Islamabad, Pakistan, developed as part of a Machine Learning course final project at COMSATS University Islamabad.
+PropPredict is a complete house price prediction system built for Islamabad, Pakistan, developed as part of a Machine Learning project
 
 The system covers the full data science pipeline — from raw web scraping through to a live Flask-powered prediction dashboard.
 
@@ -81,13 +81,13 @@ Raw listings were cleaned through the following steps:
 
 The histograms below show the spread of property prices (in PKR millions) and property sizes (in square feet) after outlier capping.
 
-![Price and Size Distributions](distributions.png)
+<img width="1389" height="390" alt="distributions" src="https://github.com/user-attachments/assets/abaf955b-a73b-4dd8-8db0-6b1faa2de06d" />
 
 ### Feature Correlation Matrix
 
 The heatmap shows pairwise correlations between all numeric features. `size_sqft` has the strongest correlation with `price_pkr`, followed by `bathrooms` and `bedrooms`.
 
-![Feature Correlation Matrix](correlation.png)
+<img width="663" height="590" alt="correlation" src="https://github.com/user-attachments/assets/a4d533ac-6770-4b70-9c8a-18d00ee7ea98" />
 
 ---
 
@@ -108,19 +108,19 @@ All six models are trained on the same 80/20 train-test split and evaluated usin
 
 ### R² Score Comparison
 
-![R² Score by Model](r2_comparison.png)
+<img width="989" height="490" alt="r2_comparison" src="https://github.com/user-attachments/assets/9091958b-5d63-4e32-a03c-8243a1608e19" />
 
 ### Feature Importance (Random Forest)
 
 `size_sqft` is by far the most predictive feature, followed by `location` and `bathrooms`.
 
-![Feature Importance](feature_importance.png)
+<img width="690" height="390" alt="feature_importance" src="https://github.com/user-attachments/assets/85291b25-f51d-4c6f-9361-850d437b3dfb" />
 
 ### Actual vs Predicted (Random Forest)
 
 Points cluster tightly along the perfect-prediction diagonal, demonstrating strong model fit across the price range.
 
-![Actual vs Predicted](actual_vs_predicted.png)
+<img width="690" height="690" alt="actual_vs_predicted" src="https://github.com/user-attachments/assets/b020ffdc-2e59-4be7-8402-e154bbb68081" />
 
 ---
 
@@ -130,13 +130,13 @@ Points cluster tightly along the perfect-prediction diagonal, demonstrating stro
 
 The panel below compares all six models across all four evaluation metrics simultaneously.
 
-![Model Evaluation — All Metrics](model_evaluation.png)
+<img width="1385" height="1014" alt="model_evaluation" src="https://github.com/user-attachments/assets/8868d49a-287b-4f09-9a2a-ee05cd91cd70" />
 
 ### Residual Plot
 
 Residuals are evenly scattered around zero with no systematic bias, confirming the model generalises well and does not overfit.
 
-![Residual Plot](residuals.png)
+<img width="790" height="490" alt="residuals" src="https://github.com/user-attachments/assets/67f0cd7f-8fa6-4cec-b4bd-c99cc7e0b33e" />
 
 ---
 
